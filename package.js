@@ -22,7 +22,7 @@
     var services = [
         {
             service: 'Netflix',
-            androidPackageNames: ['com.netflix.mediaclient', 'com.netflix.ninja']
+            androidPackageNames: ['com.netflix.mediaclient']
         }
     ];
     var AllSourceProvider = /** @class */ (function () {
