@@ -86,7 +86,8 @@
                                  * will cause the app to automatically navigate to the content upon launch.
                                  * Which can be very convenient.
                                  */
-                                url: 'android://' + androidPackage
+                                // url: 'android://' + androidPackage
+                                url: 'nflx://www.netflix.com/watch/70291117'
                             });
                         });
                 });
