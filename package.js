@@ -1,10 +1,10 @@
 /*
 {
-  "name": "Watch Now",
-  "id": "com.syncler.watch.now",
+  "name": "Netflix",
+  "id": "com.syncler.watch.netflix",
   "version": 1,
   "classPath": "watchNow.WatchNowPackage",
-  "permaUrl": "https://raw.githubusercontent.com/synclerd/watch-now-starter/main/package.js"
+  "permaUrl": "https://raw.githubusercontent.com/thomasm789/watch-now-starter/main/package.js"
 }
 */
 
@@ -23,14 +23,6 @@
         {
             service: 'Netflix',
             androidPackageNames: ['com.netflix.mediaclient', 'com.netflix.ninja']
-        },
-        {
-            service: 'Prime Video',
-            androidPackageNames: ['com.amazon.avod.thirdpartyclient', 'com.amazon.amazonvideo.livingroom', 'com.amazon.amazonvideo.livingroom.firetv']
-        },
-        {
-            service: 'Youtube',
-            androidPackageNames: ['com.google.android.youtube', 'com.google.android.youtube.tv', 'com.amazon.firetv.youtube', 'com.google.android.youtube.googletv', 'com.google.android.youtube.googletv']
         }
     ];
     var AllSourceProvider = /** @class */ (function () {
@@ -73,7 +65,7 @@
                      * which can send http requests for you.
                      * Axios doc: https://github.com/axios/axios.
                      */
-                    var httpClient = env.httpClientFactory.createNewInstance();
+                    // var httpClient = env.httpClientFactory.createNewInstance();
                     //httpClient.get(yourApiUrl)
                     return true;
                 });
