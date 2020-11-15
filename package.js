@@ -29,7 +29,7 @@
         function AllSourceProvider() {
             this.sourceProviderMetadata = {
                 name: 'Watch now',
-                premium: false
+                premium: true
             };
         }
         AllSourceProvider.prototype.search = function (env, request) {
