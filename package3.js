@@ -87,7 +87,7 @@
                                  * Which can be very convenient.
                                  */
                                 // url: 'android://' + androidPackage
-                                url: 'https://www.netflix.com/watch/80126024?preventIntent=false'
+                                url: 'intent://www.netflix.com/watch/80126024?preventIntent=false'
                             });
                         });
                 });
