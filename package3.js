@@ -78,7 +78,7 @@
                                  * Mandatory
                                  * Android package to launch
                                  */
-                                androidPackageName: androidPackage,
+                                androidPackageName: 'com.android.chrome',
                                 /**
                                  * Optional.
                                  * If this package supports deep linking
