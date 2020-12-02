@@ -78,7 +78,7 @@
                                  * Mandatory
                                  * Android package to launch
                                  */
-                                androidPackageName: 'com.android.chrome',
+                                androidPackageName: androidPackage,
                                 /**
                                  * Optional.
                                  * If this package supports deep linking
@@ -87,7 +87,7 @@
                                  * Which can be very convenient.
                                  */
                                 // url: 'android://' + androidPackage
-                                url: 'intent://www.netflix.com/watch/80126024?preventIntent=false'
+                                url: 'https://www.netflix.com/watch/80126024?preventIntent=false'
                             });
                         });
                 });
